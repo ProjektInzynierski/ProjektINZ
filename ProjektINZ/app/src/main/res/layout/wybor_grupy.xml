@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/wyborgrupy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/Inf_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Inf Rok:"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/Inf_1_rok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="1"
+            app:layout_constraintStart_toEndOf="@+id/Inf_menu"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/Inf_2_rok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="2"
+            app:layout_constraintStart_toEndOf="@+id/Inf_1_rok"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/Inf_3_rok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="3"
+            app:layout_constraintStart_toEndOf="@+id/Inf_2_rok"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/Inf_4_rok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="4"
+            app:layout_constraintStart_toEndOf="@+id/Inf_3_rok"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/Inf_5_rok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="5"
+            app:layout_constraintStart_toEndOf="@+id/Inf_4_rok"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/AiR_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="AiR Rok:"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Inf_menu" />
+
+        <Button
+            android:id="@+id/AiR_1_rok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="1"
+            app:layout_constraintStart_toEndOf="@+id/AiR_menu"
+            app:layout_constraintTop_toBottomOf="@+id/Inf_1_rok" />
+
+        <Button
+            android:id="@+id/AiR_2_rok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="2"
+            app:layout_constraintStart_toEndOf="@+id/AiR_1_rok"
+            app:layout_constraintTop_toBottomOf="@+id/Inf_2_rok" />
+
+        <Button
+            android:id="@+id/AiR_3_rok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="3"
+            app:layout_constraintStart_toEndOf="@+id/AiR_2_rok"
+            app:layout_constraintTop_toBottomOf="@+id/Inf_3_rok" />
+
+        <Button
+            android:id="@+id/AiR_4_rok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="4"
+            app:layout_constraintStart_toEndOf="@+id/AiR_3_rok"
+            app:layout_constraintTop_toBottomOf="@+id/Inf_4_rok" />
+
+        <Button
+            android:id="@+id/AiR_5_rok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="5"
+            app:layout_constraintStart_toEndOf="@+id/AiR_4_rok"
+            app:layout_constraintTop_toBottomOf="@+id/Inf_5_rok" />
+
+        <Button
+            android:id="@+id/Ele_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Ele Rok:"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/AiR_menu" />
+
+        <Button
+            android:id="@+id/Ele_1_rok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="1"
+            app:layout_constraintStart_toEndOf="@+id/Ele_menu"
+            app:layout_constraintTop_toBottomOf="@+id/AiR_1_rok" />
+
+        <Button
+            android:id="@+id/Ele_2_rok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="2"
+            app:layout_constraintStart_toEndOf="@+id/Ele_1_rok"
+            app:layout_constraintTop_toBottomOf="@+id/AiR_2_rok" />
+
+        <Button
+            android:id="@+id/Ele_3_rok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="3"
+            app:layout_constraintStart_toEndOf="@+id/Ele_2_rok"
+            app:layout_constraintTop_toBottomOf="@+id/AiR_3_rok" />
+
+        <Button
+            android:id="@+id/Ele_4_rok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="4"
+            app:layout_constraintStart_toEndOf="@+id/Ele_3_rok"
+            app:layout_constraintTop_toBottomOf="@+id/AiR_4_rok" />
+
+        <Button
+            android:id="@+id/Ele_5_rok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="5"
+            app:layout_constraintStart_toEndOf="@+id/Ele_4_rok"
+            app:layout_constraintTop_toBottomOf="@+id/AiR_5_rok" />
+
+        <Button
+            android:id="@+id/EiT_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="EiT Rok:"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Ele_menu" />
+
+        <Button
+            android:id="@+id/EiT_1_rok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="1"
+            app:layout_constraintStart_toEndOf="@+id/EiT_menu"
+            app:layout_constraintTop_toBottomOf="@+id/Ele_1_rok" />
+
+        <Button
+            android:id="@+id/EiT_2_rok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="2"
+            app:layout_constraintStart_toEndOf="@+id/EiT_1_rok"
+            app:layout_constraintTop_toBottomOf="@+id/Ele_2_rok" />
+
+        <Button
+            android:id="@+id/EiT_3_rok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="3"
+            app:layout_constraintStart_toEndOf="@+id/EiT_2_rok"
+            app:layout_constraintTop_toBottomOf="@+id/Ele_3_rok" />
+
+        <Button
+            android:id="@+id/EiT_4_rok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="4"
+            app:layout_constraintStart_toEndOf="@+id/EiT_3_rok"
+            app:layout_constraintTop_toBottomOf="@+id/Ele_4_rok" />
+
+        <Button
+            android:id="@+id/EiT_5_rok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="5"
+            app:layout_constraintStart_toEndOf="@+id/EiT_4_rok"
+            app:layout_constraintTop_toBottomOf="@+id/Ele_5_rok" />
+    </android.support.constraint.ConstraintLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/blue"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/constraintlayout">
+
+        <EditText
+            android:id="@+id/nazwagrupy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Dodaj" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Wstecz" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
+

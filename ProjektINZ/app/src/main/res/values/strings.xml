@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Wydział Elektryczny</string>
+    <string name="welcome_msg">Witamy</string>
+    <string name="sign_out">Wyloguj</string>
+    <string name="contacts_permission_rationale">Access to account information is required to sign in.</string>
+    <string name="invite_menu_label">Zaproś</string>
+    <string name="invitation_message">Please join me for a friendly chat</string>
+    <string name="invitation_cta">Call to action</string>
+    <string name="invitation_title">Zaproś znajomych</string>
+    <string name="sign_in">Zaloguj się</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="fresh_config">Fresh Config</string>
+    <string name="cause_crash">Crashuj</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="refresh">Odśwież</string>
+
+    <string name="pattern1_title">A</string>
+    <string name="pattern2_title">B</string>
+    <string name="pattern3_title">C</string>
+    <string name="pattern4_title">D</string>
+    <string name="pattern1_id">id-A</string>
+    <string name="pattern2_id">id-B</string>
+    <string name="pattern3_id">id-C</string>
+    <string name="pattern4_id">id-D</string>
+    <string name="menu_share">Share</string>
+    <string name="name1"><font fgcolor="#1d479a">PRACOWNIK</font></string>
+    <string name="usos">USOS</string>
+    <string name="czat">CZAT</string>
+    <string name="plan_zajec">PLAN ZAJEC</string>
+    <string name="kontynuuj">Kontynuuj</string>
+    <string name="help_logo_powitanie">Przycisk umożliwiający przejście do menu głównego dzięki zaimplementowaniu konkretnego kodu: </string>
+
+
+
+
+
+</resources>

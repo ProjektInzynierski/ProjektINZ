@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sign_out_menu"
+        android:title="@string/sign_out"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/fresh_config_menu"
+        android:enabled="false"
+        android:visible="false"
+        android:title="@string/fresh_config"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/invite_menu"
+        android:title="@string/invite_menu_label"
+        android:visible="false"/>
+    <item
+        android:id="@+id/crash_menu"
+        android:enabled="false"
+        android:title="@string/cause_crash"
+        android:visible="false"/>
+    <item
+        android:id="@+id/Rok_1"
+        android:visible="false"
+        android:title="1 Rok" />
+    <item
+        android:id="@+id/Rok_2"
+        android:visible="false"
+        android:title="2 Rok" />
+    <item
+        android:id="@+id/dodaj_grupe"
+        android:visible="false"
+        android:title="Dodaj grupę" />
+
+</menu>
